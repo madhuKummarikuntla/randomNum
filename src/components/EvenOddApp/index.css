@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.app-con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.home-con {
+  display: flex;
+  margin: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    to bottom,
+    #ff6e7f,
+    #bfe9ff,
+    #1e293b,
+    #334155
+  );
+  height: 400px;
+  width: 500px;
+  border-radius: 20px;
+}
+.head {
+  font-size: bold;
+  font-family: 'Roboto';
+}
+.data {
+  font-weight: 500px;
+  font-size: 20px;
+}
+.button {
+  border-radius: 7px;
+  height: 40px;
+  width: 100px;
+  border-width: 0px;
+}
